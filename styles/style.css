@@ -19,6 +19,10 @@ header{
     transition: all 0.3s ease;
 
 }
+.hamburger-icon{
+    width: 27px;
+    display: none;
+}
 .logo{
     margin: 11px 28px;
 }
@@ -78,6 +82,9 @@ header{
 @media (max-width: 768px){
     .header-ul{
         display: none;
+    }
+    .hamburger-icon{
+        display: block;
     }
     header{
         width: auto;
