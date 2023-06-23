@@ -231,7 +231,77 @@ header{
     position: relative;
     top: -60px;
 }
+.online-payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1170px;
+    margin: auto;
+}
+.online-payment img{
+    width: 450px;
+    height: 480px;
+}
+.section-text{
+    width: 530px;
+    margin: 30px 0;
+}
+.section-text h2{
+    margin: 20px 0 5px;
+    font-weight: 700;
+    font-family:YekanBakhMedium;
+    font-size: 1.4rem;
+    color: #747480;
+}
+.section-text h3{
+    margin: 5px 0 10px;
+    font-weight: 600;
+    font-family:YekanBakhHeavy;
+    font-size: 2rem;
+    color: #303030;
+}
+.section-text p{
+    font-family: YekanBakhMedium;
+    color: #303030;
+    text-align: justify;
+    line-height: 40px;
+    border-bottom: 1px solid #dfe1e4;
+    padding-bottom: 20px; 
+    margin-top: 16px;
+}
+.section-links{
+    display: flex;
+    margin-top: 40px;
+}
+.section-links .first-button{
+    text-decoration: none;
+    font-family:iranyekanwebmedium;
+    font-size: 0.9rem;
+    color: #000;
+    background-color: #ffd900;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 14px;
+    margin-left: 10px;
+}
+.section-links .second-button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: iranyekanwebmedium;
+    font-size: 0.9rem;
+    color: #28457b;
+    background-color: rgba(232,239,254,0.7);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 14px;
+}
+.section-links .second-button img{
+    width: 18px;
+    height: 15px;
+    margin-right: 5px;
 
+}
 @keyframes fadeInDown{
     0%{
         opacity: 0;
