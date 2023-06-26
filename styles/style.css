@@ -483,6 +483,18 @@ footer .social-media{
  .footer-links li{
      padding: 8px 0;
  }
+ .bell{
+     background-color: #2e82ff;
+     width: fit-content;
+     padding: 7px 7px 0;
+     border-radius: 50%;
+     position: fixed;
+     bottom: 20px;
+     left: 20px;
+ }
+ .bell img{
+     width: 40px;
+ }
 @keyframes fadeInDown{
     0%{
         opacity: 0;
